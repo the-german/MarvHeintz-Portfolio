@@ -11,6 +11,20 @@ header{
     background-size: cover;
 }
 
+@media (max-width: 992px) {
+    #img-avatar img{
+        display: none;
+    }
+
+    #map{
+        display: none;
+    }
+
+    #text h2{
+        float: right;
+        font-size: 20px;
+    }
+}
 
 .navbar-brand{
     color: #FFF;
@@ -71,8 +85,11 @@ footer{
     height: auto;
 }
 
-@media (max-width: 992px) {
-    #img-avatar img{
-        display: none;
-    }
+p a{
+    color: #000000;
+    text-decoration: none;
+}
+#copyright:hover{
+    color: #000000;
+    text-decoration: none;
 }

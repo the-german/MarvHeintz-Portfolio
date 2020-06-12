@@ -70,3 +70,9 @@ footer{
     width: 100%;
     height: auto;
 }
+
+@media (max-width: 992px) {
+    #img-avatar img{
+        display: none;
+    }
+}
